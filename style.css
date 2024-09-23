@@ -3,10 +3,9 @@
 :root {
     --bg-color: #414a36;
     --primary-color: #E2E2B6;
-    --secondary-color: #6EACDA;
+    --secondary-color: #000000;
     --font: "Nunito Sans", sans-serif;
 }
-
 body {
     background-color: var(--bg-color);
     color: var(--primary-color);
@@ -44,7 +43,23 @@ nav a:hover {
     text-decoration: underline;
     transform: scale(0.90);
     transition: transform 0.1s;
-}/* código omitido */
+}
+
+.graficos-container {
+    margin: 5rem;
+}
+
+.graficos-container__texto {
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 2rem;
+    border: var(--secondary-color) solid 2px;
+}
+
+span {
+    font-weight: bold;
+    color: var(--secondary-color);
+}
 
 footer {
     display: flex;
